@@ -1,0 +1,43 @@
+/*stylesheet*/
+
+body
+{
+	background-color: #C2C094;
+	color: #000;
+	background-image: url("../images/background-image.jpg");
+	background-size: cover;	
+
+}
+
+#wrapper
+{
+	margin: 2em auto;
+	padding: 0 2em;
+}
+
+.header
+{
+
+	font-family: 'Staatliches', cursive;
+	margin: auto auto;
+}
+
+h2
+{
+	font-family: auto;
+}
+
+img
+{
+	dispay: block;
+	height: auto;
+}
+
+.article
+{
+	font-size: 16px;
+	background-color: #DAD8BE;
+	color: #002A32;
+	margin: 2em auto;
+	padding:  2em 2em;
+}
