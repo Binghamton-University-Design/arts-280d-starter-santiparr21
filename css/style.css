@@ -101,6 +101,7 @@ transition: text-decoration-color .3s ease-in-out;
 
 #nav a:hover, #nav a.active  { 
   text-decoration-color: var(--body-color);
+  background-color: ;
 }
 
 #nav.active {
@@ -310,7 +311,7 @@ transition: text-decoration-color .3s ease-in-out;
   text-decoration-color: var(--body-color); 
 }
 
-/*PORTFOLIO + WRITING*/
+/*PORTFOLIO + MUSIC*/
 
 #portfolio, #music {
   margin-top: 2rem;
