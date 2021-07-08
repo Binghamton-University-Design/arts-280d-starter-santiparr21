@@ -1,6 +1,17 @@
 /*stylesheet*/
 
-body {
+
+/*vars*/
+
+:root
+{
+	--background-color: ;
+	--body-color: ;
+}
+
+
+body 
+{
   background-color: floralwhite;
   color: black;
   /*font-family: 'Roboto Mono', monospace;*/
@@ -9,28 +20,34 @@ body {
 
 /*GENERAL*/
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4 
+{
   margin: 0;
   /*font-family: 'Roboto', sans-serif;*/
 }
 
-h1 {
+h1 
+{
   font-size: 4.2rem
 }
 
-h2 {
+h2 
+{
   font-size: 2.6rem;
 }
 
-h3 {
+h3 
+{
   font-size: 1.6rem;
 }
 
-h4 {
+h4 
+{
   font-size: 1rem;
 }
 
-#wrapper {
+#wrapper 
+{
   margin: 2rem auto;
   max-width: 1220px;
   padding: 0 2rem;
@@ -38,12 +55,14 @@ h4 {
 
 /*MASTHEAD*/
 
-#masthead, #main {
+#masthead, #main 
+{
 	margin-bottom: 2rem;
 }
 
-.grid div {
-
+.grid div 
+{
+	color: ;
 }
 
 #logo a {
@@ -191,12 +210,12 @@ transition: text-decoration-color .3s ease-in-out;
   height: 70vh;
 }
 
-#work h3, #writings h3, #portfolio h3 {
+#work h3, #music h3, #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
 
-#work h3 a, #writings h3 a, #portfolio h3 a {
+#work h3 a, #music h3 a, #portfolio h3 a {
   color: var(--body-color);
   text-decoration: none;
 }
@@ -293,7 +312,7 @@ transition: text-decoration-color .3s ease-in-out;
 
 /*PORTFOLIO + WRITING*/
 
-#portfolio, #writings {
+#portfolio, #music {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
