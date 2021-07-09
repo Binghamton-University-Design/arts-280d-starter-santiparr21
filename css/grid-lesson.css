@@ -40,20 +40,60 @@ body
 	width: 100%;
 }
 
-.block
+.block, .grid-one
 {
 	background-color: #5448C8;
 	padding: 1rem;
 }
 
-.wide
+.wide, .grid-one
 {
 	background-color: forestgreen;
 	grid-row: 2 / 4;
 	grid-column: 3 / 8;	
 }
 
-.tall
+.tall, .grid-one
+{
+	background-color: tomato;
+	grid-row: 1 / 3;
+	grid-column: 1 / 6;
+}
+
+.block, .grid-two
+{
+	background-color: #5448C8;
+	padding: 1rem;
+}
+
+.wide, .grid-two
+{
+	background-color: forestgreen;
+	grid-row: 2 / 4;
+	grid-column: 7 / 8;	
+}
+
+.tall, .grid-two
+{
+	background-color: tomato;
+	grid-row: 1 / 3;
+	grid-column: 2 / 3;
+}
+
+.block, .grid-three
+{
+	background-color: #5448C8;
+	padding: 1rem;
+}
+
+.wide, .grid-three
+{
+	background-color: forestgreen;
+	grid-row: 2 / 4;
+	grid-column: 3 / 8;	
+}
+
+.tall, .grid-three
 {
 	background-color: tomato;
 	grid-row: 1 / 3;
