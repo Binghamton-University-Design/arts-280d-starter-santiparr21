@@ -10,43 +10,45 @@
 }
 
 
-body 
+body
 {
   background-color: floralwhite;
   color: black;
   /*font-family: 'Roboto Mono', monospace;*/
   line-height: 1.5;
+	background-image: url("../images/site-background.jpeg");
+	background-size: cover;
 }
 
 /*GENERAL*/
 
-h1, h2, h3, h4 
+h1, h2, h3, h4
 {
   margin: 0;
   /*font-family: 'Roboto', sans-serif;*/
 }
 
-h1 
+h1
 {
   font-size: 4.2rem
 }
 
-h2 
+h2
 {
   font-size: 2.6rem;
 }
 
-h3 
+h3
 {
   font-size: 1.6rem;
 }
 
-h4 
+h4
 {
   font-size: 1rem;
 }
 
-#wrapper 
+#wrapper
 {
   margin: 2rem auto;
   max-width: 1220px;
@@ -55,12 +57,12 @@ h4
 
 /*MASTHEAD*/
 
-#masthead, #main 
+#masthead, #main
 {
 	margin-bottom: 2rem;
 }
 
-.grid div 
+.grid div
 {
 	color: ;
 }
@@ -88,18 +90,18 @@ h4
 
 /*NAV*/
 
-#nav a { 
+#nav a {
 color: var(--body-color);
-font-weight: 300; 
-letter-spacing: 2px; 
-text-decoration-color: transparent; 
-display: inline-block; 
-width: 100%; 
-text-align: center; 
+font-weight: 300;
+letter-spacing: 2px;
+text-decoration-color: transparent;
+display: inline-block;
+width: 100%;
+text-align: center;
 transition: text-decoration-color .3s ease-in-out;
 }
 
-#nav a:hover, #nav a.active  { 
+#nav a:hover, #nav a.active  {
   text-decoration-color: var(--body-color);
   background-color: ;
 }
@@ -108,11 +110,11 @@ transition: text-decoration-color .3s ease-in-out;
   display: block;
 }
 
-#nav ul { 
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
@@ -120,16 +122,16 @@ transition: text-decoration-color .3s ease-in-out;
 }
 
 #nav li {
-  flex: 3; 
+  flex: 3;
 }
 
 #nav-button {
   display: none;
-} 
+}
 
 #nav-button-holder {
   justify-content: flex-end;
-  display: flex; 
+  display: flex;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -225,7 +227,7 @@ transition: text-decoration-color .3s ease-in-out;
   overflow: hidden;
   height: 0;
   position: relative;
-  width: 100%; 
+  width: 100%;
   padding-top: calc((1 / 1) * 100%);
   background-color: var(--body-color);
 }
@@ -297,18 +299,18 @@ transition: text-decoration-color .3s ease-in-out;
 
 .writing-item h2 a {
   color: var(--body-color);
-  text-decoration-color: transparent; 
+  text-decoration-color: transparent;
   transition: text-decoration-color .3s ease-in-out;
 }
 
 .writing-item h2 a:hover {
   color: var(--body-color);
-  text-decoration-color: var(--body-color); 
+  text-decoration-color: var(--body-color);
 }
 
 .writing-item p a {
   color: var(--body-color);
-  text-decoration-color: var(--body-color); 
+  text-decoration-color: var(--body-color);
 }
 
 /*PORTFOLIO + MUSIC*/
@@ -328,12 +330,12 @@ transition: text-decoration-color .3s ease-in-out;
 
 #portfolio p a {
   color: var(--body-color);
-  text-decoration-color: var(--body-color); 
+  text-decoration-color: var(--body-color);
   transition: text-decoration-color .3s ease-in-out;
 }
 
 #portfolio p a:hover {
-  text-decoration-color: transparent; 
+  text-decoration-color: transparent;
 }
 
 /*FOOTER*/
@@ -352,7 +354,7 @@ transition: text-decoration-color .3s ease-in-out;
   }
 }
 
-@media all and (max-width: 699px) { 
+@media all and (max-width: 699px) {
   #nav-button {
     display: block;
   }
@@ -361,11 +363,11 @@ transition: text-decoration-color .3s ease-in-out;
     padding-bottom: 1rem;
     display: none;
   }
-  #nav li { 
-    width: 100%; 
+  #nav li {
+    width: 100%;
     flex-basis: 100%;
     margin-bottom: 1rem;
-  } 
+  }
   #intro-holder h1 {
     font-size: 3.2rem
   }
@@ -387,4 +389,3 @@ transition: text-decoration-color .3s ease-in-out;
   }
 
 }
-
